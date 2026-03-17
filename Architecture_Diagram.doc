@@ -1,0 +1,26 @@
+       
+         Architecture Diagram
+       
+       
+       
+        Clients / APIs
+              │
+              ▼
+        MongoDB (Logs)
+              │
+              ▼
+     Data Processing Layer (Python)
+              │
+              ▼
+     Anomaly Detection Engine
+              │
+              ▼
+        LLM Layer (AI)
+     (RCA + Recommendations)
+              │
+       ┌──────┴──────┐
+       ▼             ▼
+ Chatbot API     Dashboard (Power BI)
+       │
+       ▼
+  End Users / Clients
